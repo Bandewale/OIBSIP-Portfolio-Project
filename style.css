@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.intro-image img{
+    width:100vw;
+}
+.heading{
+    position:relative;
+    left:25%;
+    bottom: 1020px;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 85px;
+    padding:3px;
+    margin:1px;
+    margin-top: 5%;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 95px;
+    padding:3px;
+    margin:2px;
+    margin-bottom: 8%;
+}
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    padding:3px;
+    margin:3px;
+}
+.aboutme img{
+     height:200px;
+     border-radius:50%;
+}
+.heading h3{
+    margin-bottom: 3%;
+}
+.aboutme{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    margin:auto;
+    position:relative;
+    right:25%;
+    width:700px;
+    margin-bottom: 4%;
+    font-size: 35px;
+}
+.skills,.education,.projects , .contact{
+    margin-top: -190px;    
+}
+.skills{
+    position:relative;
+    left:20%;
+    margin-bottom: 12%;
+    margin-top:-760px ;
+}
+.education ul li{
+   position: relative;
+    left:2%;
+    padding:5px;
+    margin:1%;
+}
+.education{
+    margin-bottom: 10%;
+    position:relative;
+    left:50%;
+    
+}
+.projects{
+   
+    margin-bottom: 15%;
+    
+    
+}
+.projects h3 , .conatct h3{
+    padding:1%;
+
+}
+.projects ul li , .contact ul li{
+    position: relative;
+    left:2%;
+    padding:5px;
+    margin:1%;
+}
+.c{
+    background-color: burlywood;
+}
+.contact{
+    
+    position:relative;
+    left:40%;
+   
+}
